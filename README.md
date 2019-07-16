@@ -1,17 +1,1 @@
 "# html-and-css-helicopter" 
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Helicopter</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="cloud">
-	</div>
-	<div class="fan"></div>
-	<div class="stand"></div>
-	<img src="cartoon-helicopter-png-1-without-fan.png">
-	
-</body>
-</html>
