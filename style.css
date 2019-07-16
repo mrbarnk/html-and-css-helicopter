@@ -1,0 +1,67 @@
+.cloud {
+	height: 100%;
+	position: absolute;
+	background-image: url(cloud.png);
+	background-repeat: repeat-x;
+	width: 500000%;
+	animation: cloud 50s linear infinite;
+}
+img {
+	margin-top: 60px;
+	width: 200px;
+	height: 100px;
+	margin-left: 100px;
+	animation: helicopter 4s linear infinite;
+}
+.fan , .stand {
+	margin-top: 40px;
+	margin-left: 70px;
+	width: 300px;
+	height: 10px;
+	/*border: 1px solid black;*/
+	position: absolute;
+	background: green;
+	/*transform: scaleY(10);*/
+	animation: blade 1s linear infinite;
+	border-radius: 20px;
+	/*border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;*/
+}
+.stand {
+	height: 50px;
+	width: 5px;
+	right: 1120px;
+	background: black;
+	/*border: 1px solid yellow;*/
+}
+@keyframes cloud {
+	100% {
+		transform: translateX(-3400px);
+	}
+}
+
+@keyframes helicopter {
+	100% {
+		transform: translateY(-4px);
+	}
+	50% {
+		transform: translateY(4px);
+	}
+	0% {
+		transform: translateY(-4px);
+	}
+}
+
+@keyframes blade {
+	100% {
+		transform: /*skewX(20deg)*/;
+		transform: rotateY(360deg);
+	}
+/*	50% {
+		transform: translateY(4px);
+	}
+	0% {
+		transform: translateY(-4px);
+	}*/
+}
